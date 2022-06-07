@@ -42,7 +42,7 @@ from openedx.core.djangolib.markup import HTML, Text
         </nav>
     </div>
 
-    <div class="footer-content-secondary" aria-label="${_("Legal")}">
+    {% comment %} <div class="footer-content-secondary" aria-label="${_("Legal")}">
       <div class="footer-about-copyright">
         ## Site operators: Please do not remove this paragraph! This attributes back to edX and makes your acknowledgement of edX's trademarks clear.
         <p>
@@ -59,6 +59,6 @@ from openedx.core.djangolib.markup import HTML, Text
           <img alt="${_("Powered by Open edX")}" src="https://logos.openedx.org/open-edx-logo-tag.png">
         </a>
       </div>
-    </div>
+    </div> {% endcomment %}
   </footer>
 </div>
